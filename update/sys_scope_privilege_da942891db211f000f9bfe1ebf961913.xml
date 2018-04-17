@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Loaner Requestr">1cabc33fdb595b000f9bfe1ebf9619d7</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-17 11:51:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>da942891db211f000f9bfe1ebf961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SysRelatedList</sys_name>
+        <sys_package display_value="Loaner Requestr" source="x_152596_loaner_re">1cabc33fdb595b000f9bfe1ebf9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loaner Requestr">1cabc33fdb595b000f9bfe1ebf9619d7</sys_scope>
+        <sys_update_name>sys_scope_privilege_da942891db211f000f9bfe1ebf961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-17 11:51:29</sys_updated_on>
+        <target_name>SysRelatedList</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>
