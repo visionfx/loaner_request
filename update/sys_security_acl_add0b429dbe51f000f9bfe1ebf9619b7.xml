@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="x_152596_loaner_re_loaner_request">requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>write acces to all fields for the Loaner Request applications user role unless the use ris the Requsted for.</description>
+        <name>x_152596_loaner_re_loaner_request</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 07:23:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>add0b429dbe51f000f9bfe1ebf9619b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_152596_loaner_re_loaner_request</sys_name>
+        <sys_package display_value="Loaner Requestr" source="x_152596_loaner_re">1cabc33fdb595b000f9bfe1ebf9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loaner Requestr">1cabc33fdb595b000f9bfe1ebf9619d7</sys_scope>
+        <sys_update_name>sys_security_acl_add0b429dbe51f000f9bfe1ebf9619b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 07:32:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

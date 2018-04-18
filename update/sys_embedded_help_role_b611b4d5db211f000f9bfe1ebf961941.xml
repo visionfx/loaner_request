@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_152596_loaner_re.loaner_task_user" name="x_152596_loaner_re.loaner_task_user">fa11b4d5db211f000f9bfe1ebf96193f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-17 12:46:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b611b4d5db211f000f9bfe1ebf961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fa11b4d5db211f000f9bfe1ebf96193f</sys_name>
+        <sys_package display_value="Loaner Requestr" source="x_152596_loaner_re">1cabc33fdb595b000f9bfe1ebf9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loaner Requestr">1cabc33fdb595b000f9bfe1ebf9619d7</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b611b4d5db211f000f9bfe1ebf961941</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-17 12:46:08</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

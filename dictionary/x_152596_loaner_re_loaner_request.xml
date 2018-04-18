@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Loaner Request" max_length="40" name="x_152596_loaner_re_loaner_request" sizeclass="1" type="collection">
+    <element extends="task" label="Loaner Request" max_length="40" name="x_152596_loaner_re_loaner_request" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" default="sc" label="Depot" max_length="40" name="depot" type="string">
             <choice>
                 <element label="New York" sequence="0" value="ny"/>
@@ -20,8 +20,15 @@
                 <element label="Projector" sequence="2" value="cmdb_ci_projector"/>
             </choice>
         </element>
+        <element label="Overdue reminder" max_length="40" name="last_overdue_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
+        <element label="Overdue Count" max_length="40" name="overdue_count" type="integer"/>
+        <element label="Pick up reminder" max_length="40" name="pickup_u_reminder" type="glide_date_time"/>
         <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Return reminder" max_length="40" name="return_reminder" type="glide_date_time"/>
         <element label="Start date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="New Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element label="New Date/Time" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element label="New Integer" max_length="40" name="u_integer_4" type="integer"/>
     </element>
 </database>
